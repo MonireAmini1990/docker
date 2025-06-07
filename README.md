@@ -9,10 +9,10 @@ list of the Docker commands:
 #docker images
 
 #start containers:
-docker run --name firstContainer -p 80:80 nginx
-docker ps -a
-docker run --name secondContainer -p 80:80 nginx
-docker ps -a
+. docker run --name firstContainer -p 80:80 nginx
+. docker ps -a
+. docker run --name secondContainer -p 80:80 nginx
+. docker ps -a
 
 #View the container’s logs:
 docker logs firstContainer
