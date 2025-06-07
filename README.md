@@ -31,3 +31,6 @@ We can check the status of running containers using the # docker ps -a # command
 Or remove them entirely using the # docker rm # command.
 3. How does the docker logs command help you when working with containers?
 Overall, the docker logs command is a very useful tool that helps us monitor errors and application behavior in containers. It makes it easier to troubleshoot and maintain containers and can help improve the stability and performance of your applications.
+
+Challenges Faced:
+When I created the first container in order, I stopped it with the control-c command to create the second container if it was not necessary. So when I wanted to view the two containers on the specific ports that I had written for each, I encountered a problem in the browser and when I checked the status of the containers with the #docker ps -a# command, I saw that the status of both was Exited. I had to completely delete both and create them again yo fix the problem.
