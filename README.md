@@ -9,22 +9,22 @@ list of the Docker commands:
 #docker images
 
 #start containers:
-. docker run --name firstContainer -p 80:80 nginx
-. docker ps -a
-. docker run --name secondContainer -p 80:80 nginx
-. docker ps -a
+ docker run --name firstContainer -p 80:80 nginx //
+ docker ps -a //
+ docker run --name secondContainer -p 80:80 nginx //
+ docker ps -a//
 
 #View the container’s logs:
-docker logs firstContainer
-docker logs secondContainer
+docker logs firstContainer//
+docker logs secondContainer//
 
 #Stoping the containers:
-docker stop firstContainer
-docker stop secondContainer
+docker stop firstContainer//
+docker stop secondContainer//
 
 #cleaning up the stopped containers:
-docker rm firstContainer
-docker rm secondContainer
+docker rm firstContainer//
+docker rm secondContainer//
 
 
 Reflection Questions:
