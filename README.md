@@ -1,7 +1,8 @@
 ![Screenshot (272)](https://github.com/user-attachments/assets/761a462a-653b-47ff-bc18-6db0ad365e5a)
 ![1](https://github.com/user-attachments/assets/20875d84-7ea6-4dc5-bd5d-a30cb29bae50)
-docker pull nginx
-docker images
+#docker pull nginx
+
+#docker images
 
 #start containers:
 docker run --name firstContainer -p 80:80 nginx
