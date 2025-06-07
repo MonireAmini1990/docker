@@ -27,5 +27,5 @@ Images in Docker contain all the files, libraries, and settings that a program n
 When we encounter this message(port already in use), it means that our container is trying to connect to the port we requested, but the port is currently in use by another application or container.
 We can check the status of running containers using the # docker ps -a # command, and then stop the containers using the port  with the # docker stop # command.
 Or remove them entirely using the # docker rm # command.
-3.How does the docker logs command help you when working with containers?
+3. How does the docker logs command help you when working with containers?
 Overall, the docker logs command is a very useful tool that helps us monitor errors and application behavior in containers. It makes it easier to troubleshoot and maintain containers and can help improve the stability and performance of your applications.
